@@ -1,0 +1,108 @@
+/* Reset */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body e estrutura geral */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px 0;
+  }
+  
+  main .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .anuncios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .anuncio {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .anuncio:hover {
+    transform: translateY(-5px);
+  }
+  
+  .anuncio img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .anuncio h3 {
+    margin: 10px 0;
+    color: #0044cc;
+  }
+  
+  .anuncio p {
+    margin: 5px 0;
+  }
+  
+  .anuncio .preco {
+    color: #007b00;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
